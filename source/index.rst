@@ -1,8 +1,8 @@
 .. edu2 Documentation master file.
 
-###############################
-Welcome to edu2's Documentation
-###############################
+##############################
+Welcome to edu's Documentation
+##############################
 
 .. toctree::
    :maxdepth: 2
