@@ -49,5 +49,27 @@ section C
    :emphasize-lines: 3
    :linenos:
 
+section D
+=========
+
+.. glossary::
+   :sorted:
+
+   environment
+      A structure where information about all documents under the root is
+      saved, and used for cross-referencing.  The environment is pickled
+      after the parsing stage, so that successive runs only need to read
+      and parse new and changed documents.
+
+   source directory
+      The directory which, including its subdirectories, contains all
+      source files for one Sphinx project.
+      
+   asdf
+      The asdf of the lorem with the bar and ipsum
+
+
+References
+==========
 
 .. [Ref] Book or article reference, URL or whatever.
