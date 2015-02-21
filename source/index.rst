@@ -9,7 +9,8 @@ Welcome to edu's Documentation
    :glob:
    
    docs/*
-   
+   slides/*
+
 
 Indices and tables
 ==================

@@ -1,0 +1,2 @@
+sphinx_rtd_theme>=0.1.6
+hieroglyph>=0.6.5
