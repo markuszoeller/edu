@@ -26,13 +26,16 @@ True   True   True
 section B
 =========
 
-term (up to a line of text)
-   Definition of the term, which must be indented
-
-   and can even consist of multiple paragraphs
-
-next term
-   Description.
+.. glossary::
+   :sorted:
+   
+   term (up to a line of text)
+      Definition of the term, which must be indented
+   
+      and can even consist of multiple paragraphs
+   
+   next term
+      Description.
    
 .. code-block:: java
    :linenos:
@@ -52,22 +55,9 @@ section C
 section D
 =========
 
-.. glossary::
-   :sorted:
+For details about the :term:`environment` see the :ref:`sec-glossary`
 
-   environment
-      A structure where information about all documents under the root is
-      saved, and used for cross-referencing.  The environment is pickled
-      after the parsing stage, so that successive runs only need to read
-      and parse new and changed documents.
-
-   source directory
-      The directory which, including its subdirectories, contains all
-      source files for one Sphinx project.
-      
-   asdf
-      The asdf of the lorem with the bar and ipsum
-
+Find this at the :ref:`genindex`
 
 References
 ==========

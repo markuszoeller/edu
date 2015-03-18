@@ -1,4 +1,5 @@
-.. edu2 Documentation master file.
+
+.. _sec-toc:
 
 ##############################
 Welcome to edu's Documentation
@@ -7,10 +8,17 @@ Welcome to edu's Documentation
 .. toctree::
    :maxdepth: 2
    :glob:
+   :numbered:
    
-   docs/*
-   slides/*
+   docs/quickstart
+   docs/notation
+   docs/intro
+   docs/backlog
+   docs/glossary
 
+----------
+
+.. todolist::
 
 Indices and tables
 ==================
